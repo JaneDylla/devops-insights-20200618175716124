@@ -1,4 +1,5 @@
 
+
 .App {
   text-align: center;
 }
@@ -20,4 +21,16 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 20;
+  padding: 20;
 }
