@@ -4,19 +4,19 @@ function Zip(props) {
 
     const [validationError, setValidationError] = useState(null);
 
-/*
+
     const validate = (event) => {
-        const zipCodePattern = /^\d{5}$/;
-        const valid = zipCodePattern.test(event.target.value);
+       // const zipCodePattern = /^\d{5}$/;
+       // const valid = zipCodePattern.test(event.target.value);
+       const valid = true;	//EDIT THIS LATER
         if (!valid) {
-            setValidationError('* should be a 5 digit number only');
+            setValidationError('* Invalid City Name');
             props.clearResponse();
         } else {
             setValidationError('');
             props.onZipChange(event.target.value);
         }
     };
-    */
 
     return (
         <div className="col-sm-4">
