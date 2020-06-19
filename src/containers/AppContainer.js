@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import fetch from 'isomorphic-unfetch'
-import CityResponse from '../components/ZipResponse';
-import City from '../components/Zip';
+import CityResponse from '../components/CityResponse';
+import City from '../components/City';
 
 function AppContainer(props) {
 
