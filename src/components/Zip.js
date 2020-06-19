@@ -4,6 +4,7 @@ function Zip(props) {
 
     const [validationError, setValidationError] = useState(null);
 
+/*
     const validate = (event) => {
         const zipCodePattern = /^\d{5}$/;
         const valid = zipCodePattern.test(event.target.value);
@@ -15,6 +16,7 @@ function Zip(props) {
             props.onZipChange(event.target.value);
         }
     };
+    */
 
     return (
         <div className="col-sm-4">
@@ -30,7 +32,7 @@ function Zip(props) {
                         type="text" 
                         className="form-control" 
                         id="usr" 
-                        placeholder="US Zip Code (5 digit)"
+                        placeholder="NZ City Name"
                         onKeyPress={(event) => {
                             if (event.key === "Enter") {
                                 validate(event);
