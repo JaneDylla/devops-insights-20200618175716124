@@ -4,8 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AppHeader from './components/AppHeader';
 import MapContainer from './containers/MapContainer';
 import './Map.css';
-import './Map.html';
-
 
 var map;
 function initMap() {
