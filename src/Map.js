@@ -2,7 +2,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AppHeader from './components/AppHeader';
-import AppContainer from './containers/AppContainer';
+import MapContainer from './containers/MapContainer';
 import './Map.css';
 import './Map.html';
 
@@ -29,4 +29,4 @@ window.initMap = function() {
 // Append the 'script' element to 'head'
 document.head.appendChild(script);
 
-export deafult initMap;
+export default initMap;
