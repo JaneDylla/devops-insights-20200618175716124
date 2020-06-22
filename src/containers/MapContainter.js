@@ -5,6 +5,7 @@ import City from '../components/City';
 
 function MapContainer(props) {
 
+/*
     const [responseData, setResponseData] = useState('');
 
     const handleCityChange = async (cityValue) => {
@@ -33,6 +34,8 @@ function MapContainer(props) {
             </div>    
         </div>
     );
+    */
 }
+
   
 export default MapContainer
